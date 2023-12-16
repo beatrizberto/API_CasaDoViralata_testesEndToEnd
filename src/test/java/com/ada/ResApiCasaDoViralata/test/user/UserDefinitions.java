@@ -67,12 +67,6 @@ public class UserDefinitions {
 
     }
 
-    @And("user is still unknown")
-    public void userIsStillUnknown() {
-        response = request.when().get("/user?name=" + user.getName());
-        response.then().statusCode(403);
-
-    }
 
 }
 

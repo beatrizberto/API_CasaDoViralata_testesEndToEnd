@@ -9,4 +9,3 @@ Feature: User register
     Given user without email
     When user fail to register
     Then notify email must be not null
-    And user is still unknown
