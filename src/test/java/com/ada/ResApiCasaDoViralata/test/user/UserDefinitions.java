@@ -1,6 +1,5 @@
 package com.ada.ResApiCasaDoViralata.test.user;
 
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -10,8 +9,6 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.jupiter.api.Assertions;
-
-import java.util.List;
 
 public class UserDefinitions {
 
@@ -40,7 +37,7 @@ public class UserDefinitions {
         response.then().statusCode(201);
 
     }
-//////////////////////////
+
 
     @Given("user without email")
     public void userWithoutEmail() {
