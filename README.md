@@ -23,4 +23,4 @@ Link do repositório da aplicação: [https://github.com/beatrizberto/API_CasaDo
 ### Testes E2E
 Feature: User register
 - Scenario 1: Registro de novo User com sucesso (201)
-- Scenario 2: Tentativa de registrar novo User sem o atributo email resulta em fracasso (404) e retorna mensagem "O campo email não pode estar vazio"
+- Scenario 2: Tentativa de registrar novo User sem o atributo email resulta em fracasso (400) e retorna mensagem "O campo email não pode estar vazio"
